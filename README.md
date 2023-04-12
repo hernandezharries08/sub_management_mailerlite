@@ -60,11 +60,12 @@ Start the development server:
 php artisan serve
 ```
 
-Access the application in your browser at http://localhost:8000.
+Access the application in your browser at http://127.0.0.1:8000/.
 
 To run the PHPUnit tests, use the following command:
 ```
 php artisan test
 ```
+##Getting your API Key
 
-That's it! You should now have the project set up and running on your local environment.
+You can get your API key for MailerLite API at https://developers.mailerlite.com

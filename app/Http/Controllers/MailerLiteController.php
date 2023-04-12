@@ -13,6 +13,10 @@ class MailerLiteController extends Controller
     {
         $apiKey = ApiKey::first();
 
+        if (!$apiKey) {
+            return view('api_key_form',['api_key' => ""]);
+        }
+
         return view('api_key_form',['api_key' => $apiKey->api_key]);
     }
 
