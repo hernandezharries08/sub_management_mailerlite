@@ -66,6 +66,7 @@ To run the PHPUnit tests, use the following command:
 ```
 php artisan test
 ```
-##Getting your API Key
+
+## Getting your API Key
 
 You can get your API key for MailerLite API at https://developers.mailerlite.com
